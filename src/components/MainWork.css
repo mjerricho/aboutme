@@ -1,0 +1,41 @@
+:root {
+    --dark-jungle-green: #20221bff;
+    --rifle-green: #424c42ff;
+    --wintergreen-dream: #5f8f88ff;
+    --timberwolf: #d3d0cbff;
+    --cultured: #f1f1f1ff;
+    --maximum-yellow-red: #efbb43ff;
+    --melon: #f3c4b6ff;
+  }
+
+.artwork-panel {
+    background-color: var(--dark-jungle-green);
+}
+
+.section-artworks {
+    z-index: 100;
+    padding: 40px 50px 20px 50px;
+    align-items: center;
+    
+}
+
+.section-artworks-work {
+    justify-content: center;
+    margin: 15px;
+}
+
+.section-artworks img { 
+    max-width: 100%;
+}
+
+.section-artworks span { 
+    color: var(--cultured);
+}
+
+.section-artworks h4 { 
+    color: var(--cultured);
+}
+
+#title {
+    color: var(--maximum-yellow-red);
+}

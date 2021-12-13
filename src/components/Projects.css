@@ -1,0 +1,68 @@
+:root {
+    --dark-jungle-green: #20221bff;
+    --rifle-green: #424c42ff;
+    --wintergreen-dream: #5f8f88ff;
+    --timberwolf: #d3d0cbff;
+    --cultured: #f1f1f1ff;
+    --maximum-yellow-red: #efbb43ff;
+    --melon: #f3c4b6ff;
+  }
+
+/* header of projects */
+.section-projects-header {
+    align-items: center;
+}
+
+/* collapsible panels header */
+.projects-panel {
+    background-color: var(--timberwolf);
+    width: 100%;
+}
+
+.projects-panel-btn {
+    background-color: var(--dark-jungle-green);
+    color: var(--cultured);
+    cursor: pointer;
+    padding: 1rem;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: var(--maximum-yellow-red);
+}
+
+.projects-panel-btn:hover {
+    background-color: var(--rifle-green);
+    color: var(--maximum-yellow-red);
+    transition-duration: 500ms;
+    transition: 500ms;
+}
+
+/* collapsible panels content */
+.projects-panel-content {
+    width: 100%;
+    padding: 1rem;
+}
+
+.projects-panel-row {
+    align-items: center;
+}
+
+.projects-panel-content img { 
+    width: 100%;
+}
+
+.projects-link {
+    width: 100%;
+    text-align: center;
+    color: var(--cultured);
+    background-color: var(--dark-jungle-green);
+    padding: 10px;
+}
+
+.projects-link a {
+    color: var(--cultured);
+}
+
+.projects-link a:hover {
+    color: var(--dark-jungle-green);
+    background-color: var(--maximum-yellow-red);
+}

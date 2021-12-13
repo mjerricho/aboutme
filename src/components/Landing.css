@@ -1,0 +1,51 @@
+:root {
+    --dark-jungle-green: #20221bff;
+    --rifle-green: #424c42ff;
+    --wintergreen-dream: #5f8f88ff;
+    --timberwolf: #d3d0cbff;
+    --cultured: #f1f1f1ff;
+    --maximum-yellow-red: #efbb43ff;
+    --melon: #f3c4b6ff;
+  }
+
+.landing-page {
+    height: 100vh;
+    background-image: url("../assets/images/landing/street-5130030_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 60px;
+    z-index: 0;
+}
+
+.backdrop {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    /* filter: opacity(20%); */
+}
+
+
+.front-row {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50vh;
+    color: var(--cultured);
+    text-align: center;
+    padding: auto;
+    z-index: 10;
+}
+
+.greetings {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+}
+
+.greetings > p{
+    font-size: 20px;
+}

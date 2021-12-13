@@ -1,0 +1,32 @@
+:root {
+    --dark-jungle-green: #20221bff;
+    --rifle-green: #424c42ff;
+    --wintergreen-dream: #5f8f88ff;
+    --timberwolf: #d3d0cbff;
+    --cultured: #f1f1f1ff;
+    --maximum-yellow-red: #efbb43ff;
+    --melon: #f3c4b6ff;
+  }
+
+#about-me-container {
+    align-items: center;
+}
+  
+#about-me-pictures {
+    width: 100%;
+    padding: 10px;
+}
+
+#about-me-text {
+    background-color: var(--timberwolf);
+    padding: 2rem;
+}
+
+#about-me-text h2 {
+    background-color: var(--maximum-yellow-red);
+    padding-left: 0.5rem;
+}
+
+#about-me-text p {
+    padding-left: 0.5rem;
+}

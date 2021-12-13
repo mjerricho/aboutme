@@ -1,0 +1,38 @@
+:root {
+    --dark-jungle-green: #20221bff;
+    --rifle-green: #424c42ff;
+    --wintergreen-dream: #5f8f88ff;
+    --timberwolf: #d3d0cbff;
+    --cultured: #f1f1f1ff;
+    --maximum-yellow-red: #efbb43ff;
+    --melon: #f3c4b6ff;
+  }
+
+.section-artworks {
+    background-color: var(--dark-jungle-green);
+    padding: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: var(--maximum-yellow-red);
+}
+
+.artworks-container {
+    color: var(--cultured);
+    text-align: center;
+    padding: 0;
+}
+
+.moreworks-button {
+    margin: 5px;
+    align-items: center;
+    width: 100%;
+}
+
+.moreworks-button:hover {
+    color: var(--maximum-yellow-red);
+    cursor: pointer;
+}
+
+.artworks-image {
+    margin: 10px 0 10px 0;
+}

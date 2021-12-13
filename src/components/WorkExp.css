@@ -1,0 +1,57 @@
+:root {
+    --dark-jungle-green: #20221bff;
+    --rifle-green: #424c42ff;
+    --wintergreen-dream: #5f8f88ff;
+    --timberwolf: #d3d0cbff;
+    --cultured: #f1f1f1ff;
+    --maximum-yellow-red: #efbb43ff;
+    --melon: #f3c4b6ff;
+  }
+  
+.section-workexp-header {
+    align-items: center;
+}
+
+/* overall panel */
+.workexp-panel {
+    background-color: var(--timberwolf);
+    margin: 0 0 3px 0;
+    width: 100%;
+}
+
+.workexp-panel:hover {
+    background-color: var(--maximum-yellow-red);
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+
+
+/* panel button */
+.workexp-panel-btn {
+    padding: 1rem;
+    width: 100%;
+}
+
+.workexp-pic {
+    align-items: center;
+    width: 100%;
+}
+
+.workexp-panel-btn h4 {
+    background-color: var(--dark-jungle-green);
+    padding: 0.5rem;
+    color: var(--cultured);
+}
+
+.workexp-panel-btn h4:hover {
+    color: var(--maximum-yellow-red);
+    transition-duration: 300ms;
+}
+
+.workexp-panel-btn img { 
+    width: 100%;
+}
+
+.workexp-panel-row span{
+    color: var(--cultured);
+}

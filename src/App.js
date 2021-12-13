@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Landing from './components/LandingComponent';
+import AboutMe from './components/AboutMeComponent';
+import MainWork from './components/MainWorkComponent'
+import WorkExp from './components/WorkExpComponent';
+import Projects from './components/ProjectsComponent';
+import Achievements from './components/AchievementsComponent';
+import Others from './components/OthersComponent';
+import Artworks from './components/ArtworksComponent';
+import Footer from './components/FooterComponent';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Landing />
+      <AboutMe />
+      <Projects />
+      <MainWork />
+      <WorkExp />
+      <Achievements />
+      <Others />
+      <Artworks />
+      <Footer />
     </div>
   );
 }

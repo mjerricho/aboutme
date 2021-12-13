@@ -1,0 +1,47 @@
+:root {
+    --dark-jungle-green: #20221bff;
+    --rifle-green: #424c42ff;
+    --wintergreen-dream: #5f8f88ff;
+    --timberwolf: #d3d0cbff;
+    --cultured: #f1f1f1ff;
+    --maximum-yellow-red: #efbb43ff;
+    --melon: #f3c4b6ff;
+  }
+
+#section-achievements {
+    background-image: url("../assets/images/achievements/background-achievements.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-achievements h1{
+    width: 100%;
+    background-color: var(--cultured);
+}
+
+.achievements-card {
+    background-color: var(--timberwolf);
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.achievements-card-content {
+    align-items: center;
+}
+
+.achievements-card-content img {
+    width: 100%;
+}
+
+.achievements-card-content h4 {
+    background: var(--dark-jungle-green);
+    color: var(--cultured);
+    padding: 3px 3px 3px 8px;
+}
+
+.achievements-card-content h5 {
+    background: var(--wintergreen-dream);
+    color: var(--cultured);
+    padding: 3px 3px 3px 8px;
+}

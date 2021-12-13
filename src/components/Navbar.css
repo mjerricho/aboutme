@@ -1,0 +1,119 @@
+:root {
+  --dark-jungle-green: #20221bff;
+  --rifle-green: #424c42ff;
+  --wintergreen-dream: #5f8f88ff;
+  --timberwolf: #d3d0cbff;
+  --cultured: #f1f1f1ff;
+  --maximum-yellow-red: #efbb43ff;
+  --melon: #f3c4b6ff;
+}
+
+/* overall navbar */
+#navbar {
+    background-color: var(--dark-jungle-green) ;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    color: var(--cultured);
+    position: fixed;
+    /* top: 0px; */
+    z-index: 1000;
+  }
+
+#sidebar-button {
+  padding: 2px;
+}
+
+#sidebar-button:hover {
+  border-radius: 4px;
+  background-color: var(--rifle-green);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+#navbar-name {
+  font-size: 1.3rem;
+  margin-left: 16px;
+}
+
+#navbar-name:hover { 
+  background-color: var(--maximum-yellow-red);
+  color: var(--dark-jungle-green);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+/* sidebar */
+.nav-sidebar-menu {
+  background-color: var(--dark-jungle-green);
+  color: var(--cultured);
+  width: 275px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  /* left: 0; */
+  transition: 850ms;
+  z-index: 1000;
+}
+
+.nav-sidebar-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-sidebar-menu-items {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.nav-sidebar-toggle {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: left;
+  padding-left: 16px;
+}
+
+#nav-sidebar-cross-button:hover {
+  transform: scale(0.8);
+  cursor: pointer;
+}
+
+.nav-sidebar-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+  border-radius: 4px;
+}
+
+.nav-sidebar-text a {
+  text-decoration: none;
+  color: var(--cultured);
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-sidebar-text a:hover {
+  background-color: var(--rifle-green);
+  color: var(--cultured);
+  padding: 0 16px;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+
+.nav-sidebar-text-span {
+  margin-left: 16px;
+}
