@@ -26,10 +26,10 @@ function Projects() {
             whileTap={{scale: 0.98}}>{collapse ? "Expand All" : "Collapse All"}</motion.div>
           </Col>
         </Row>
-        {ProjectsData.map((item, index) => {
+        {ProjectsData.map((item) => {
           return (
-            <Row key={index}>
-              <ProjectsCollapsiblePanel key={index} project={item} collapse={collapse}></ProjectsCollapsiblePanel>
+            <Row key={item.id}>
+              <ProjectsCollapsiblePanel project={item} collapse={collapse}></ProjectsCollapsiblePanel>
             </Row>
           );
         })}

@@ -27,9 +27,9 @@ function Navbar() {
                 <li className='nav-sidebar-toggle'>
                     <AiIcons.AiOutlineClose size={30} onClick={showSidebar} id="nav-sidebar-cross-button"/>
                 </li>
-                {SidebarData.map((item, index) => {
+                {SidebarData.map((item) => {
                 return (
-                    <motion.li key={index} className={item.cName} whileTap={{ scale: 0.8 }}>
+                    <motion.li key={item.id} className={item.cName} whileTap={{ scale: 0.8 }}>
                         <Link 
                         activeClass="active"
                         to={item.elementId}

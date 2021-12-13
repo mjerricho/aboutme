@@ -4,11 +4,7 @@ import Collapse from 'react-bootstrap/Collapse';
 
 
 function ProjectsCollapsiblePanel(props) {
-    // console.log(props);
     const { project, collapse } = props;
-    // console.log(project.title);
-    // console.log(project.companylogo)
-    // console.log(collapse);
     const [isCollapse, setIsCollapse] = useState(collapse);
 
     const toggle = () => {
