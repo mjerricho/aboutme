@@ -27,7 +27,6 @@ section {
   border-bottom-style: solid;
   border-color: var(--timberwolf);
   border-width: 2px;
-  /* min-height: 90vh; */
 }
 
 #expand-all-button {
