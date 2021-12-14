@@ -1,5 +1,5 @@
 import artworkabstractme2 from "../assets/images/artworks/artworks-abstract-me-2.jpg";
-import artworkabstractme1 from "../assets/images/artworks/artworks-abstract-me.webp";
+import artworkabstractme1 from "../assets/images/artworks/artworks-abstract-me.png";
 import artworkear from "../assets/images/artworks/artworks-ear.jpg";
 import artworkflower from "../assets/images/artworks/artworks-flower.jpg";
 import artworkhand from "../assets/images/artworks/artworks-hand.jpg";

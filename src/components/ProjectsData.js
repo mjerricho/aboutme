@@ -1,6 +1,6 @@
 import projectautoware from '../assets/images/projects/projects-autoware.png';
 import projectwater from '../assets/images/projects/projects-water.png';
-import projectpolitics from '../assets/images/projects/projects-politics.jpeg';
+import projectpolitics from '../assets/images/projects/projects-politics.jpg';
 
 export const ProjectsData =[
     {
