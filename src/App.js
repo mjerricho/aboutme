@@ -9,7 +9,6 @@ import Achievements from './components/AchievementsComponent';
 import Others from './components/OthersComponent';
 import Artworks from './components/ArtworksComponent';
 import Footer from './components/FooterComponent';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
