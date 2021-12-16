@@ -11,7 +11,6 @@ import Artworks from './components/ArtworksComponent';
 import Footer from './components/FooterComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 function App() {
   return (
     <div className="App">

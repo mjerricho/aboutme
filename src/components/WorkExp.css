@@ -37,6 +37,10 @@
     width: 100%;
 }
 
+.workexp-pic img {
+    max-width: 30vw;
+}
+
 .workexp-panel-btn h4 {
     background-color: var(--dark-jungle-green);
     padding: 0.5rem;

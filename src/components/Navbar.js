@@ -10,10 +10,7 @@ import { motion } from 'framer-motion';
 function Navbar() {
     const [sidebar, setSidebar] = useState(false);
     const showSidebar = () => setSidebar(!sidebar);
-
-    const scrollToTop = () => {
-        scroll.scrollToTop();
-    };
+    const scrollToTop = () => { scroll.scrollToTop() };
     
     return (
     <>

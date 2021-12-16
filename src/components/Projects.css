@@ -8,6 +8,16 @@
     --melon: #f3c4b6ff;
   }
 
+.section-projects {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.section-container {
+    padding: 0;
+}
+
 /* header of projects */
 .section-projects-header {
     align-items: center;

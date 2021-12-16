@@ -5,7 +5,6 @@ import './MainWork.css';
 // importing the image
 import artworksuob from "../assets/images/artworks/artworks-uob.jpg";
 
-
 function MainWork() {
     return (
         <div className="artwork-panel">

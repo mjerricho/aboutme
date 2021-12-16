@@ -15,7 +15,7 @@ function Landing() {
     animate: {
         y: 0,
         transition: {
-        delayChildren: 0.6,
+        delayChildren: 0.5,
         staggerChildren: 0.2,
         staggerDirection: 1
         },
@@ -33,12 +33,16 @@ function Landing() {
         transition: { duration: 1, ...transition },
     },
     };
+
     return (
         <div className="landing-page">
             <motion.div className="backdrop"
-            initial={{opacity: 0, y: -500}}
-            animate={{opacity: 0.5, y: 0, transition: {delay: 0.6, duration: 2, ease: [0.6, 0.01, -0.05, 0.9]}}}>
+            initial={{opacity: 0, y: -1000}}
+            animate={{opacity: 0.6, y: 0, transition: {delay: 0.7, duration: 2.5, ease: [0.26, 0.85, 0.94, 0.41]}}}>
             </motion.div>
+            <div className='picture-title'>
+                <div className='bottom-left'><span>Picture taken by me in Japan, 2019</span></div>
+            </div>
             <div className="front-row">
                 <motion.div className='greetings'>
                 <motion.span initial="initial" animate="animate" className='first' variants={firstGreeting}>
@@ -50,10 +54,9 @@ function Landing() {
                     <motion.span variants={letter}>e</motion.span>
                     <motion.span variants={letter}>r</motion.span>
                     <motion.span variants={letter}>e</motion.span>
-                    <motion.span variants={letter}>!</motion.span>
-                    
+                    <motion.span variants={letter}>!</motion.span>     
                 </motion.span>
-                <motion.p initial={{opacity: 0}} animate={{opacity: 1, transition: {delay: 3.5, duration: 2, ease: [0.6, 0.01, -0.05, 0.9]}}}>Click here to know more about me</motion.p>
+                <motion.p initial={{opacity: 0}} animate={{opacity: 1, transition: {delay: 2.5, duration: 2, ease: [0.6, 0.01, -0.05, 0.9]}}}>Click here to know more about me</motion.p>
                 <Link 
                     activeClass="active"
                     to="section-about-me"
@@ -63,7 +66,7 @@ function Landing() {
                     duration={500}> 
                         <motion.div
                         initial={{opacity: 0, y: -200}} 
-                        animate={{opacity: 1, y: 0, transition: {delay: 4, duration: 2, ease: [0.6, 0.01, -0.05, 0.9]}}} 
+                        animate={{opacity: 1, y: 0, transition: {delay: 2.8, duration: 2, ease: [0.6, 0.01, -0.05, 0.9]}}} 
                         whileHover={{scale: 1.1}} 
                         whileTap={{scale: 0.9}}>
                             <AiIcons.AiFillDownCircle/>

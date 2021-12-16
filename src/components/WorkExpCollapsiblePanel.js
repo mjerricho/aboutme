@@ -32,13 +32,10 @@ function WorkExpCollapsiblePanel(props) {
                                 <h4>{workexp.role}</h4>
                             </Row>
                             <Row>
-                                <h5>{workexp.duration}</h5>
-                            </Row>
-                            <Row>
                                 <h5>{workexp.subtitle}</h5>
                             </Row>
                             <Row>
-                                <span>at {workexp.company}</span>
+                                <span>{workexp.duration} at {workexp.company}</span>
                             </Row>
                         </Col>
                     </Row>

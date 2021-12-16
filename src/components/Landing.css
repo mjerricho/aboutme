@@ -6,7 +6,7 @@
     --cultured: #f1f1f1ff;
     --maximum-yellow-red: #efbb43ff;
     --melon: #f3c4b6ff;
-  }
+}
 
 .landing-page {
     height: 100vh;
@@ -24,9 +24,20 @@
     width: 100%;
     background-color: black;
     z-index: 1;
-    /* filter: opacity(20%); */
 }
 
+.picture-title {
+    position: relative;
+    z-index: 100;
+}
+
+.bottom-left {
+    position: absolute;
+    color: var(--cultured);
+    bottom: 15px;
+    left: 20px;
+    font-size: 1rem;
+}
 
 .front-row {
     position: absolute;

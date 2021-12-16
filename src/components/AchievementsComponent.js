@@ -17,10 +17,10 @@ function Achievements() {
                 <Col key={item.id} xs={12} md={6}>
                   <Container className="achievements-card">
                     <Row className="achievements-card-content">
-                      <Col xs={12} md={3}>
+                      <Col sm={12} md={4} lg={3}>
                         <img src={item.picture} alt="achievements" className="achievements-images"/>
                       </Col>
-                      <Col xs={12} md={9}>
+                      <Col sm={12} md={8} lg={9}>
                         <h4>{item.title}</h4>
                         <h5>{item.by}</h5>
                         <span>{item.year}</span>

@@ -42,13 +42,19 @@ function OthersComponent() {
         "CSS"
     ]
 
+    const languages =[
+        "English", 
+        "Bahasa Indonesia",
+        "Bahasa Melayu"
+    ]
+
     return (
         <section id="section-others">
             <Container className="section-container">
                 <Row>
                     <h1>Others</h1>
                 </Row>
-                <Row>
+                <Row className='other-content-row'> {/* in app.css */}
                     <Col xs={12} md={9}>
                         <Row>
                             <h3>Leadership Positions</h3>
@@ -81,6 +87,17 @@ function OthersComponent() {
                                     </Row>
                                 )
                             })}
+                        <Row>
+                            <h3>Languages</h3>
+                        </Row>
+                        {languages.map((item, index) => {
+                                return(
+                                    <Row key={index}>
+                                        <span>{item}</span>
+                                    </Row>
+                                )
+                            })}
+
                     </Col>
                 </Row>
             </Container>

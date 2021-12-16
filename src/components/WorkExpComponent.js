@@ -8,7 +8,6 @@ import { motion } from 'framer-motion';
 
 
 function WorkExp() {
-
   const [collapse, setCollapse] = useState(true);
   const collapseAll = () => {
     setCollapse(!collapse);

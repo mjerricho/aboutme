@@ -27,11 +27,12 @@
 }
 
 .achievements-card-content {
-    align-items: center;
+    align-items: flex-start;
 }
 
 .achievements-card-content img {
     width: 100%;
+    max-width: 40vw;
 }
 
 .achievements-card-content h4 {

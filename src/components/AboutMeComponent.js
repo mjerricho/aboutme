@@ -5,16 +5,6 @@ import aboutmeshort from '../assets/images/about-me/about-me-short.jpg';
 import './AboutMe.css';
 
 function AboutMe() {
-  // const [offsetY, setOffsetY] = useState(0);
-  // const handleScroll = () => setOffsetY(window.pageYOffset);
-  // const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] };
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
-
   return (
     <div>
       <section id="section-about-me">
@@ -31,12 +21,12 @@ function AboutMe() {
               </picture>
             </Col>
             <Col xs={12} md={8} id="about-me-text">
-              <h2>Hi!</h2>
+              <h2>Hi! I'm Jerri.</h2>
               <p>
-                My name is Jerri.
+                I code, analyse data, and make art.
               </p>
               <p>
-                I am a student at Yale-NUS College majoring in Computer Science. I have a wide interest spanning from programming to physics to art. In particular, I really enjoy programming softwares and analysing data. I have been assisting multiple research work where I provide technical help to propel the research forward. Looking forward. I am always excited for new challenges and adventures. 
+                I am a Computer Science student at Yale-NUS College. I have a wide interest spanning from programming to physics to art. Specifically, I really enjoy programming softwares and analysing data. I have been assisting multiple research works where I provide technical help to propel the research forward. Looking forward, I am always excited for new challenges and adventures. 
               </p>
             </Col>
           </Row>
