@@ -7,7 +7,7 @@ import projectbirdy from "../assets/images/projects/projects-birdy.png";
 export const ProjectsData =[
     {
         id: 1,
-        title: "Birdy: A text Messaging app",
+        title: "Birdy: A Text Messaging App",
         subtitle: "An implementation of a text messaging app using ReactJS and Firebase.",
         description: "I implemented a text messaging app that used no SQL and hosted on Firebase. I used reactJS to build the application's front-end and Firebase JavaScript v9.6.2 to handle its back end. I utilised Firestore database and its API to enable a realtime update of the app. It enables users to login using their Google account. Features include a chat room creation and search capability.",
         picture: projectbirdy,
