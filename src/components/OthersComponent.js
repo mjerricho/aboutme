@@ -8,14 +8,14 @@ function OthersComponent() {
             role: "Captain",
             organisation: "Yale-NUS College Men's Footbal Team",
             date: "Sep 2021 - Present",
-            description: "I liaise between the men's football team (of over 30 members) and the school's athletics department. I am in charge of organising trainings and leading the team to competitions. My role is especially important in these covid times, as there are many regulations that the team must follow so that we can train legally and properly."
+            description: "I liaise between the men's football team (of over 50 members) and the school's athletics department. I revitalise team spirit by organising trainings and competitions, increasing training participation rate by roughly 50%."
         },
         {
             id: 2,
             role: "President",
             organisation: "Yale-NUS College Visual Art Society",
             date: "Sep 2021 - Present",
-            description: "As the president, I lead an organisation with over 40 members. However, I often initiated and organised art events for the greater school's student population. We implemented art jams, workshops and art exhibitions with up to 90 participants. We always look for fresh, beginner-friendly, and creative activities to make the events as inclusive and attractive as possible."
+            description: "As the president, I lead an organisation with over 70 members. However, I often initiated and organised art events for the greater school's student population of over 1000 people. We implemented art jams, workshops and art exhibitions with up to 90 participants. We always look for fresh, beginner-friendly, and creative activities to make the events as inclusive and attractive as possible."
         },
         {
             id: 3,
@@ -30,6 +30,7 @@ function OthersComponent() {
         "Software Engineering", 
         "Data Analytics",
         "Web Development",
+        "Machine Learning",
         "Research",
         "Python",
         "OCaml",
