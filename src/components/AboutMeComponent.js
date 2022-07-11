@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import aboutmelong from '../assets/images/about-me/about-me-long.jpg';
-import aboutmeshort from '../assets/images/about-me/about-me-short.jpg';
+import aboutme from '../assets/images/about-me/about-me.jpg'
 import './AboutMe.css';
 
 function AboutMe() {
@@ -15,9 +14,7 @@ function AboutMe() {
           <Row id="about-me-container">
             <Col xs={12} md={4}>
               <picture>
-                <source media="(max-width: 768px)" srcSet={aboutmelong} />
-                <source media="(min-width: 769px)" srcSet={aboutmeshort} />
-                <img src={aboutmelong} alt="Painting of me" id="about-me-pictures" />
+                <img src={aboutme} alt="me" id="about-me-pictures" />
               </picture>
             </Col>
             <Col xs={12} md={8} id="about-me-text">
